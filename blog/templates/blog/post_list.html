@@ -5,6 +5,15 @@
 	<div>
 		<h1><a href="/">Y O B A</a></h1>
 	<div>
+	<div>
+		{% for post in posts %}	
+			<div>
+				<p>published: {{ post.published_date }}</p>
+				<h2><a href="">{{ post.title }}</a></h2>
+				<p>{{ post.text|linebreaksbr }}</p>
+			</div>
+		{% endfor %}	
+	<div>
 	<div align="center">
 		<p><div class="tenor-gif-embed" data-postid="9718895" data-share-method="host" data-width="35%" data-aspect-ratio="1.0"><a href="https://tenor.com/view/thinking-gif-9718895">Thinking GIF</a> from <a href="https://tenor.com/search/thinking-gifs">Thinking GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script></p>
 	</div>
