@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Y O B A</title>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<body>
+	<div class="page-header">
+		<h1><a href="/">Y O B A</a></h1>
+	</div>
+
+	<div align="center">
+		<p><div class="tenor-gif-embed" data-postid="9718895" data-share-method="host" data-width="15%" data-aspect-ratio="1.0"><a href="https://tenor.com/view/thinking-gif-9718895">Thinking GIF</a> from <a href="https://tenor.com/search/thinking-gifs">Thinking GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script></p>
+	</div>
+
+	<div class="content container">
+		<div class="row">
+			<div class="col-md-12">
+				{% block content %}
+				{% endblock %}
+			</div>
+		</div>
+	</div>
+</body>
+</html>
