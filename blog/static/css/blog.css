@@ -1,3 +1,11 @@
+.title {
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+}
+
+.title-text {
+	padding-right: 88px;
+}
 
 .page-header {
 	background-color: #F29100;
@@ -9,11 +17,6 @@
 	color: #ffffff;
 	font-size: 48pt;
 	text-decoration: none;
-}
-
-.title {
-	width:100%;
-	text-align: center;
 }
 
 .content {
@@ -39,7 +42,6 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-	position: absolute;
 	right: 0px;
 	color: #ffffff;
 	float: left;
