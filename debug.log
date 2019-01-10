@@ -1,0 +1,2115 @@
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\blog\views.py", line 10, in post_list
+    return render(request, 'blog/post_list.html', {'posts': posts})
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\contrib\staticfiles\storage.py", line 155, in url
+    return self._url(self.stored_name, name, force)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\contrib\staticfiles\storage.py", line 134, in _url
+    hashed_name = hashed_name_func(*args)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\contrib\staticfiles\storage.py", line 422, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'css/blog.css'
+"GET / HTTP/1.1" 500 27
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 85
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\blog\views.py", line 10, in post_list
+    return render(request, 'blog/post_list.html', {'posts': posts})
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\contrib\staticfiles\storage.py", line 155, in url
+    return self._url(self.stored_name, name, force)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\contrib\staticfiles\storage.py", line 134, in _url
+    hashed_name = hashed_name_func(*args)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\contrib\staticfiles\storage.py", line 422, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'css/blog.css'
+"GET / HTTP/1.1" 500 27
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 85
+Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\blog\views.py", line 10, in post_list
+    return render(request, 'blog/post_list.html', {'posts': posts})
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\templatetags\static.py", line 106, in render
+    url = self.url(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\templatetags\static.py", line 103, in url
+    return self.handle_simple(path)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\templatetags\static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\contrib\staticfiles\storage.py", line 155, in url
+    return self._url(self.stored_name, name, force)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\contrib\staticfiles\storage.py", line 134, in _url
+    hashed_name = hashed_name_func(*args)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\contrib\staticfiles\storage.py", line 422, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for 'css/blog.css'
+"GET / HTTP/1.1" 500 27
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 85
+"GET / HTTP/1.1" 200 4191
+"GET /static/css/blog.5bcef6c235e5.css HTTP/1.1" 200 402
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 85
+"GET /drafts HTTP/1.1" 200 2892
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 85
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 85
+"GET / HTTP/1.1" 200 3998
+"GET /static/css/blog.5bcef6c235e5.css HTTP/1.1" 200 402
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 85
+"GET /polls HTTP/1.1" 301 0
+"GET /polls/ HTTP/1.1" 200 40
+CREATE TABLE "polls_choice" ("id" serial NOT NULL PRIMARY KEY, "choice_text" varchar(200) NOT NULL, "votes" integer NOT NULL); (params None)
+CREATE TABLE "polls_question" ("id" serial NOT NULL PRIMARY KEY, "question_text" varchar(200) NOT NULL, "pub_date" timestamp with time zone NOT NULL); (params None)
+ALTER TABLE "polls_choice" ADD COLUMN "question_id" integer NOT NULL; (params [])
+CREATE INDEX "polls_choice_question_id_c5b4b260" ON "polls_choice" ("question_id"); (params ())
+ALTER TABLE "polls_choice" ADD CONSTRAINT "polls_choice_question_id_c5b4b260_fk_polls_question_id" FOREIGN KEY ("question_id") REFERENCES "polls_question" ("id") DEFERRABLE INITIALLY DEFERRED; (params ())
+CREATE TABLE "polls_choice" ("id" serial NOT NULL PRIMARY KEY, "choice_text" varchar(200) NOT NULL, "votes" integer NOT NULL); (params None)
+CREATE TABLE "polls_question" ("id" serial NOT NULL PRIMARY KEY, "question_text" varchar(200) NOT NULL, "pub_date" timestamp with time zone NOT NULL); (params None)
+ALTER TABLE "polls_choice" ADD COLUMN "question_id" integer NOT NULL; (params [])
+CREATE INDEX "polls_choice_question_id_c5b4b260" ON "polls_choice" ("question_id"); (params ())
+ALTER TABLE "polls_choice" ADD CONSTRAINT "polls_choice_question_id_c5b4b260_fk_polls_question_id" FOREIGN KEY ("question_id") REFERENCES "polls_question" ("id") DEFERRABLE INITIALLY DEFERRED; (params ())
+"GET /admin/ HTTP/1.1" 302 0
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x042718A0>>, 'request': <WSGIRequest: GET '/admin/login/?next=/admin/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x04223FD0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x042A92B0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x04223FB0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x042860D0>, 'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Log in', 'app_path': '/admin/login/?next=/admin/', 'username': '', 'next': '/admin/', 'site': <django.contrib.sites.requests.RequestSite object at 0x04286590>, 'site_name': '127.0.0.1:8000', 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x042718A0>>, 'request': <WSGIRequest: GET '/admin/login/?next=/admin/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x04223FD0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x042A92B0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x04223FB0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x042860D0>, 'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Log in', 'app_path': '/admin/login/?next=/admin/', 'username': '', 'next': '/admin/', 'site': <django.contrib.sites.requests.RequestSite object at 0x04286590>, 'site_name': '127.0.0.1:8000', 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1894
+"GET /static/admin/css/base.a419cbad388f.css HTTP/1.1" 200 3812
+"GET /static/admin/css/login.a846c0e2ef65.css HTTP/1.1" 200 487
+"GET /static/admin/css/responsive.25d98d3909ed.css HTTP/1.1" 200 3282
+"GET /static/admin/css/fonts.494e4ec545c9.css HTTP/1.1" 200 189
+"GET /static/admin/fonts/Roboto-Light-webfont.b446c2399bb6.woff HTTP/1.1" 200 81348
+"GET /static/admin/fonts/Roboto-Regular-webfont.ec39515ae8c6.woff HTTP/1.1" 200 80304
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x042D6DF8>>, 'request': <WSGIRequest: POST '/admin/login/?next=/admin/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x042DBAD0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x042EBA30>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x042EBF10>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=True, valid=False, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x04338070>, 'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Log in', 'app_path': '/admin/login/?next=/admin/', 'username': '', 'next': '/admin/', 'site': <django.contrib.sites.requests.RequestSite object at 0x042B6390>, 'site_name': '127.0.0.1:8000', 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x042D6DF8>>, 'request': <WSGIRequest: POST '/admin/login/?next=/admin/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x042DBAD0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x042EBA30>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x042EBF10>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=True, valid=False, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x04338070>, 'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': 'Log in', 'app_path': '/admin/login/?next=/admin/', 'username': '', 'next': '/admin/', 'site': <django.contrib.sites.requests.RequestSite object at 0x042B6390>, 'site_name': '127.0.0.1:8000', 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 2056
+"GET /static/admin/fonts/Roboto-Bold-webfont.2ad99072841e.woff HTTP/1.1" 200 82564
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x04351270>>, 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: kersey>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x04364B10>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x042EBAD0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': True, 'available_apps': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}], 'title': 'Site administration', 'app_list': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}], 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x04351270>>, 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: kersey>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x04364B10>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x042EBAD0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': True, 'available_apps': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}], 'title': 'Site administration', 'app_list': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}], 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+"GET /admin/ HTTP/1.1" 200 4039
+"GET /static/admin/css/dashboard.7ac78187c567.css HTTP/1.1" 200 251
+"GET /static/admin/img/icon-addlink.d519b3bab011.svg HTTP/1.1" 200 206
+"GET /static/admin/img/icon-changelink.18d2fd706348.svg HTTP/1.1" 200 269
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x041B0DF8>>, 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: kersey>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0439E610>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0408E4B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': True, 'available_apps': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': 'Polls', 'app_label': 'polls', 'app_url': '/admin/polls/', 'has_module_perms': True, 'models': [{'name': 'Questions', 'object_name': 'Question', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/polls/question/', 'add_url': '/admin/polls/question/add/'}]}], 'title': 'Site administration', 'app_list': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': 'Polls', 'app_label': 'polls', 'app_url': '/admin/polls/', 'has_module_perms': True, 'models': [{'name': 'Questions', 'object_name': 'Question', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/polls/question/', 'add_url': '/admin/polls/question/add/'}]}], 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x041B0DF8>>, 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: kersey>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0439E610>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0408E4B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': True, 'available_apps': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': 'Polls', 'app_label': 'polls', 'app_url': '/admin/polls/', 'has_module_perms': True, 'models': [{'name': 'Questions', 'object_name': 'Question', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/polls/question/', 'add_url': '/admin/polls/question/add/'}]}], 'title': 'Site administration', 'app_list': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': 'Polls', 'app_label': 'polls', 'app_url': '/admin/polls/', 'has_module_perms': True, 'models': [{'name': 'Questions', 'object_name': 'Question', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/polls/question/', 'add_url': '/admin/polls/question/add/'}]}], 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+"GET /admin/ HTTP/1.1" 200 4684
+"GET /static/admin/css/base.a419cbad388f.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.25d98d3909ed.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.7ac78187c567.css HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.494e4ec545c9.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.18d2fd706348.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.d519b3bab011.svg HTTP/1.1" 304 0
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in None
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in [{'True': True, 'False': False, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x04239420>>}]
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+"GET /admin/polls/question/ HTTP/1.1" 200 4565
+"GET /static/admin/css/changelists.f6dc691f8d62.css HTTP/1.1" 200 1492
+"GET /static/admin/js/jquery.init.95b62fa19378.js HTTP/1.1" 200 240
+"GET /static/admin/js/core.953326603873.js HTTP/1.1" 200 1835
+"GET /static/admin/js/admin/RelatedObjectLookups.ace63ab4b4e2.js HTTP/1.1" 200 1842
+"GET /static/admin/js/vendor/jquery/jquery.min.33cabfa15c10.js HTTP/1.1" 200 29881
+"GET /static/admin/js/urlify.3d46df4a0190.js HTTP/1.1" 200 2849
+"GET /static/admin/js/actions.min.741d6cf65b97.js HTTP/1.1" 200 1120
+"GET /static/admin/js/prepopulate.min.f4057ebb9b62.js HTTP/1.1" 200 243
+"GET /static/admin/js/vendor/xregexp/xregexp.min.c95393b8ca4d.js HTTP/1.1" 200 23476
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/img/tooltag-add.e59d620a9742.svg HTTP/1.1" 200 203
+"GET /admin/polls/question/add/ HTTP/1.1" 200 5104
+"GET /static/admin/css/forms.2003a066ae02.css HTTP/1.1" 200 2092
+"GET /static/admin/js/admin/DateTimeShortcuts.9328d2bf6579.js HTTP/1.1" 200 3880
+"GET /static/admin/js/prepopulate_init.0d3b53c37074.js HTTP/1.1" 200 270
+"GET /static/admin/js/change_form.9e85003a1a38.js HTTP/1.1" 200 369
+"GET /static/admin/js/calendar.aae57adab5f6.js HTTP/1.1" 200 2086
+"GET /static/admin/css/widgets.5e372b41c483.css HTTP/1.1" 200 2303
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/img/icon-calendar.ac7aea671bea.svg HTTP/1.1" 200 438
+"GET /static/admin/img/icon-clock.e1d4dfac3f2b.svg HTTP/1.1" 200 357
+"POST /admin/polls/question/add/ HTTP/1.1" 302 0
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in None
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in [{'True': True, 'False': False, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x043D7618>>}]
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+"GET /admin/polls/question/ HTTP/1.1" 200 5019
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/img/icon-yes.d2f9f035226a.svg HTTP/1.1" 200 266
+"GET /admin/polls/question/2/change/ HTTP/1.1" 200 5422
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in None
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in [{'True': True, 'False': False, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x043D7618>>}]
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+"GET /admin/polls/question/ HTTP/1.1" 200 4812
+"GET /static/admin/css/changelists.f6dc691f8d62.css HTTP/1.1" 200 1492
+"GET /static/admin/css/responsive.25d98d3909ed.css HTTP/1.1" 200 3282
+"GET /static/admin/css/base.a419cbad388f.css HTTP/1.1" 200 3812
+"GET /static/admin/css/base.a419cbad388f.css HTTP/1.1" 500 59
+"GET /admin/polls/question/1/change/ HTTP/1.1" 200 5402
+"GET /static/admin/css/forms.2003a066ae02.css HTTP/1.1" 200 2092
+"GET /static/admin/css/forms.2003a066ae02.css HTTP/1.1" 500 59
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in None
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in [{'True': True, 'False': False, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0440EE40>>}]
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+"GET /admin/polls/question/ HTTP/1.1" 200 4812
+"GET /admin/polls/question/2/change/ HTTP/1.1" 200 5422
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in None
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in [{'True': True, 'False': False, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x046551E0>>}]
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+"GET /admin/polls/question/ HTTP/1.1" 200 4812
+"GET /static/admin/css/base.a419cbad388f.css HTTP/1.1" 200 3812
+"GET /static/admin/css/base.a419cbad388f.css HTTP/1.1" 500 59
+"GET /polls/ HTTP/1.1" 200 40
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 85
+"GET /favicon.ico HTTP/1.1" 500 59
+"GET /polls/1 HTTP/1.1" 301 0
+"GET /polls/1/ HTTP/1.1" 200 29
+"GET /polls/1/results HTTP/1.1" 301 0
+"GET /polls/1/results/ HTTP/1.1" 200 44
+"GET /polls/1/vote/ HTTP/1.1" 200 28
+Not Found: /polls/index
+"GET /polls/index HTTP/1.1" 404 85
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 8, in index
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+NameError: name 'Question' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 85
+"GET /favicon.ico HTTP/1.1" 500 59
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 8, in index
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+NameError: name 'Question' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 8, in index
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+NameError: name 'Question' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 8, in index
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+NameError: name 'Question' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 8, in index
+    latest_question_list = Question.objects.order_by('-pub_date')[:5]
+NameError: name 'Question' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 16, in index
+    return HttpResponse(template.render(context, request))
+NameError: name 'request' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 16, in index
+    return HttpResponse(template.render(context, request))
+NameError: name 'request' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 16, in index
+    return HttpResponse(template.render(context, request))
+NameError: name 'request' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+"GET / HTTP/1.1" 200 4191
+"GET /static/css/blog.5bcef6c235e5.css HTTP/1.1" 200 402
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 16, in index
+    return HttpResponse(template.render(context, request))
+NameError: name 'request' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 16, in index
+    return HttpResponse(template.render(context, request))
+NameError: name 'request' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 16, in index
+    return HttpResponse(template.render(context, request))
+NameError: name 'request' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 16, in index
+    return HttpResponse(template.render(context, request))
+NameError: name 'request' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 16, in index
+    return HttpResponse(template.render(context, request))
+NameError: name 'request' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 16, in index
+    return HttpResponse(template.render(context, request))
+NameError: name 'request' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 16, in index
+    return HttpResponse(template.render(context, request))
+NameError: name 'request' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 16, in index
+    return HttpResponse(template.render(context, request))
+NameError: name 'request' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 16, in index
+    return HttpResponse(template.render(context, request))
+NameError: name 'request' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 85
+"GET /favicon.ico HTTP/1.1" 500 59
+"GET / HTTP/1.1" 200 4191
+"GET /static/css/blog.5bcef6c235e5.css HTTP/1.1" 200 402
+"GET /static/css/blog.5bcef6c235e5.css HTTP/1.1" 500 59
+"GET /polls/ HTTP/1.1" 200 155
+"GET /polls/2/ HTTP/1.1" 200 29
+"GET /polls/1/ HTTP/1.1" 200 29
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 11, in index
+    template = loader.get_template('polls/index.html')
+NameError: name 'loader' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 11, in index
+    template = loader.get_template('polls/index.html')
+NameError: name 'loader' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 11, in index
+    template = loader.get_template('polls/index.html')
+NameError: name 'loader' is not defined
+"GET /polls/ HTTP/1.1" 500 27
+"GET /polls/ HTTP/1.1" 200 155
+"GET /polls/ HTTP/1.1" 200 155
+"GET /polls/1/ HTTP/1.1" 200 20
+"GET /polls/2/ HTTP/1.1" 200 30
+"GET /polls/2/ HTTP/1.1" 200 30
+"GET /polls/2/ HTTP/1.1" 200 30
+"GET /polls/2/ HTTP/1.1" 200 30
+"GET /polls/1/ HTTP/1.1" 200 20
+"GET /polls/2/ HTTP/1.1" 200 30
+"GET /polls/2/ HTTP/1.1" 200 30
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0435C8A0>>, 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: kersey>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0436F650>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x04329F30>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': True, 'available_apps': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': 'Polls', 'app_label': 'polls', 'app_url': '/admin/polls/', 'has_module_perms': True, 'models': [{'name': 'Questions', 'object_name': 'Question', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/polls/question/', 'add_url': '/admin/polls/question/add/'}]}], 'title': 'Site administration', 'app_list': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': 'Polls', 'app_label': 'polls', 'app_url': '/admin/polls/', 'has_module_perms': True, 'models': [{'name': 'Questions', 'object_name': 'Question', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/polls/question/', 'add_url': '/admin/polls/question/add/'}]}], 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0435C8A0>>, 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: kersey>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0436F650>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x04329F30>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': True, 'available_apps': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': 'Polls', 'app_label': 'polls', 'app_url': '/admin/polls/', 'has_module_perms': True, 'models': [{'name': 'Questions', 'object_name': 'Question', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/polls/question/', 'add_url': '/admin/polls/question/add/'}]}], 'title': 'Site administration', 'app_list': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': 'Polls', 'app_label': 'polls', 'app_url': '/admin/polls/', 'has_module_perms': True, 'models': [{'name': 'Questions', 'object_name': 'Question', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/polls/question/', 'add_url': '/admin/polls/question/add/'}]}], 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+"GET /admin/ HTTP/1.1" 200 5029
+"GET /static/admin/css/dashboard.7ac78187c567.css HTTP/1.1" 200 251
+"GET /static/admin/css/responsive.25d98d3909ed.css HTTP/1.1" 200 3282
+"GET /static/admin/css/base.a419cbad388f.css HTTP/1.1" 200 3812
+"GET /static/admin/css/fonts.494e4ec545c9.css HTTP/1.1" 200 189
+"GET /static/admin/css/responsive.25d98d3909ed.css HTTP/1.1" 500 59
+"GET /static/admin/css/base.a419cbad388f.css HTTP/1.1" 500 59
+"GET /static/admin/img/icon-addlink.d519b3bab011.svg HTTP/1.1" 200 206
+"GET /static/admin/img/icon-changelink.18d2fd706348.svg HTTP/1.1" 200 269
+"GET /static/admin/fonts/Roboto-Light-webfont.b446c2399bb6.woff HTTP/1.1" 200 81348
+"GET /static/admin/fonts/Roboto-Regular-webfont.ec39515ae8c6.woff HTTP/1.1" 200 80304
+"GET /static/admin/fonts/Roboto-Bold-webfont.2ad99072841e.woff HTTP/1.1" 200 82564
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in None
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in [{'True': True, 'False': False, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x043A1E40>>}]
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+"GET /admin/polls/question/ HTTP/1.1" 200 4812
+"GET /static/admin/css/base.a419cbad388f.css HTTP/1.1" 200 3812
+"GET /static/admin/css/responsive.25d98d3909ed.css HTTP/1.1" 200 3282
+"GET /static/admin/css/fonts.494e4ec545c9.css HTTP/1.1" 200 189
+"GET /static/admin/css/base.a419cbad388f.css HTTP/1.1" 500 59
+"GET /static/admin/css/changelists.f6dc691f8d62.css HTTP/1.1" 200 1492
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/changelists.f6dc691f8d62.css HTTP/1.1" 500 59
+"GET /static/admin/js/jquery.init.95b62fa19378.js HTTP/1.1" 200 240
+"GET /static/admin/js/prepopulate.min.f4057ebb9b62.js HTTP/1.1" 200 243
+"GET /static/admin/img/tooltag-add.e59d620a9742.svg HTTP/1.1" 200 203
+"GET /admin/polls/question/2/change/ HTTP/1.1" 200 5422
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/js/change_form.9e85003a1a38.js HTTP/1.1" 200 369
+"GET /static/admin/js/prepopulate_init.0d3b53c37074.js HTTP/1.1" 200 270
+"GET /static/admin/css/forms.2003a066ae02.css HTTP/1.1" 200 2092
+"GET /static/admin/css/widgets.5e372b41c483.css HTTP/1.1" 200 2303
+"GET /static/admin/css/forms.2003a066ae02.css HTTP/1.1" 500 59
+"GET /static/admin/img/icon-calendar.ac7aea671bea.svg HTTP/1.1" 200 438
+"GET /static/admin/img/icon-clock.e1d4dfac3f2b.svg HTTP/1.1" 200 357
+Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in None
+Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in [{'True': True, 'False': False, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x04459780>>}]
+Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in None
+"GET /admin/polls/question/ HTTP/1.1" 200 4812
+"GET /static/admin/css/base.a419cbad388f.css HTTP/1.1" 200 3812
+"GET /static/admin/css/changelists.f6dc691f8d62.css HTTP/1.1" 200 1492
+"GET /static/admin/css/responsive.25d98d3909ed.css HTTP/1.1" 200 3282
+"GET /static/admin/css/fonts.494e4ec545c9.css HTTP/1.1" 200 189
+"GET /static/admin/css/responsive.25d98d3909ed.css HTTP/1.1" 500 59
+"GET /static/admin/css/base.a419cbad388f.css HTTP/1.1" 500 59
+"GET /static/admin/css/fonts.494e4ec545c9.css HTTP/1.1" 500 59
+"GET /static/admin/css/changelists.f6dc691f8d62.css HTTP/1.1" 500 59
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0444C5D0>>, 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: kersey>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x046E1D70>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x046E7D10>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': True, 'available_apps': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': 'Polls', 'app_label': 'polls', 'app_url': '/admin/polls/', 'has_module_perms': True, 'models': [{'name': 'Questions', 'object_name': 'Question', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/polls/question/', 'add_url': '/admin/polls/question/add/'}]}], 'title': 'Site administration', 'app_list': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': 'Polls', 'app_label': 'polls', 'app_url': '/admin/polls/', 'has_module_perms': True, 'models': [{'name': 'Questions', 'object_name': 'Question', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/polls/question/', 'add_url': '/admin/polls/question/add/'}]}], 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0444C5D0>>, 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: kersey>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x046E1D70>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x046E7D10>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'site_title': 'Django site admin', 'site_header': 'Django administration', 'site_url': '/', 'has_permission': True, 'available_apps': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': 'Polls', 'app_label': 'polls', 'app_url': '/admin/polls/', 'has_module_perms': True, 'models': [{'name': 'Questions', 'object_name': 'Question', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/polls/question/', 'add_url': '/admin/polls/question/add/'}]}], 'title': 'Site administration', 'app_list': [{'name': 'Authentication and Authorization', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': 'Groups', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': 'Users', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}, {'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Comments', 'object_name': 'Comment', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/comment/', 'add_url': '/admin/blog/comment/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': 'Polls', 'app_label': 'polls', 'app_url': '/admin/polls/', 'has_module_perms': True, 'models': [{'name': 'Questions', 'object_name': 'Question', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/polls/question/', 'add_url': '/admin/polls/question/add/'}]}], 'LANGUAGE_CODE': 'en-us', 'LANGUAGE_BIDI': False}]
+"GET /admin/ HTTP/1.1" 200 5029
+"GET /static/admin/css/dashboard.7ac78187c567.css HTTP/1.1" 200 251
+"GET /static/admin/css/dashboard.7ac78187c567.css HTTP/1.1" 500 59
+Not Found: /polls/2/
+"GET /polls/2/ HTTP/1.1" 404 82
+Not Found: /polls/2/
+"GET /polls/2/ HTTP/1.1" 404 82
+"GET /polls/specifics/2 HTTP/1.1" 301 0
+"GET /polls/specifics/2/ HTTP/1.1" 200 54
+"GET /polls/ HTTP/1.1" 200 175
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 85
+"GET /polls/specifics/2/ HTTP/1.1" 200 54
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 15, in index
+    return render(request, 'polls/index.html', context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\defaulttags.py", line 314, in render
+    return nodelist.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\urls\resolvers.py", line 634, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+"GET /polls/ HTTP/1.1" 500 27
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 85
+"GET /favicon.ico HTTP/1.1" 500 59
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 15, in index
+    return render(request, 'polls/index.html', context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\defaulttags.py", line 314, in render
+    return nodelist.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\urls\resolvers.py", line 634, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+"GET /polls/ HTTP/1.1" 500 27
+Internal Server Error: /polls/
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\polls\views.py", line 15, in index
+    return render(request, 'polls/index.html', context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\defaulttags.py", line 314, in render
+    return nodelist.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 910, in render_annotated
+    return self.render(context)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\urls\resolvers.py", line 634, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'detail' not found. 'detail' is not a valid view function or pattern name.
+"GET /polls/ HTTP/1.1" 500 27
+"GET /polls/ HTTP/1.1" 200 175
+"GET /polls/specifics/2/ HTTP/1.1" 200 54
+"GET /polls/specifics/1/ HTTP/1.1" 200 106
+"GET /polls/specifics/2/ HTTP/1.1" 200 54
+"GET /polls/specifics/1/ HTTP/1.1" 200 106
+"GET /polls/specifics/2/ HTTP/1.1" 200 54
+"GET /polls/specifics/1/ HTTP/1.1" 200 106
+"GET /polls/specifics/1/ HTTP/1.1" 200 106
+"GET /polls/ HTTP/1.1" 200 175
+Exception while resolving variable 'error_message' in template 'polls/detail.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [error_message] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x042629C0>>, 'request': <WSGIRequest: GET '/polls/specifics/2/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0424F198>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x042749D0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x042748F0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'question': <Question: pee pee or poo poo????????????>}]
+"GET /polls/specifics/2/ HTTP/1.1" 200 258
+Exception while resolving variable 'error_message' in template 'polls/detail.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [error_message] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x04262588>>, 'request': <WSGIRequest: GET '/polls/specifics/1/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x042629C0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0429FCD0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0429F6B0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'question': <Question: What up Y O B A?????>}]
+"GET /polls/specifics/1/ HTTP/1.1" 200 468
+"POST /polls/1/vote/ HTTP/1.1" 302 0
+"GET /polls/1/results/ HTTP/1.1" 200 179
+Exception while resolving variable 'error_message' in template 'polls/detail.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [error_message] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x042BF270>>, 'request': <WSGIRequest: GET '/polls/specifics/1/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x042BF348>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x042CF790>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x042CF390>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'question': <Question: What up Y O B A?????>}]
+"GET /polls/specifics/1/ HTTP/1.1" 200 468
+"GET /polls/ HTTP/1.1" 200 155
+"GET /polls/ HTTP/1.1" 200 155
+"GET /polls/ HTTP/1.1" 200 155
+"GET /polls/ HTTP/1.1" 200 155
+Exception while resolving variable 'error_message' in template 'polls/detail.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [error_message] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x041CBF18>>, 'request': <WSGIRequest: GET '/polls/1/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x041CBED0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x04267D30>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x04267B50>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'object': <Question: What up Y O B A?????>, 'question': <Question: What up Y O B A?????>, 'view': <polls.views.DetailView object at 0x04267990>}]
+"GET /polls/1/ HTTP/1.1" 200 468
+Exception while resolving variable 'error_message' in template 'polls/detail.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [error_message] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x041CB618>>, 'request': <WSGIRequest: GET '/polls/2/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x041CBF18>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0428D970>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x042671D0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'object': <Question: pee pee or poo poo????????????>, 'question': <Question: pee pee or poo poo????????????>, 'view': <polls.views.DetailView object at 0x04267370>}]
+"GET /polls/2/ HTTP/1.1" 200 258
+Exception while resolving variable 'error_message' in template 'polls/detail.html'.
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 835, in _resolve_lookup
+    current = current[bit]
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 841, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\DEVELOPMENT\pythontutorials\djangopoo\myvenv\lib\site-packages\django\template\base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [error_message] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x04285228>>, 'request': <WSGIRequest: GET '/polls/1/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x041CB618>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0428DD90>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0428D890>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'object': <Question: What up Y O B A?????>, 'question': <Question: What up Y O B A?????>, 'view': <polls.views.DetailView object at 0x0428D8B0>}]
+"GET /polls/1/ HTTP/1.1" 200 468
